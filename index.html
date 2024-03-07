@@ -11,7 +11,7 @@
 <body>
 <form id="adlibs">
     <label for="elementals">Choose an element:</label><br>
-        <select id="elementals" name="elementals">
+        <select id="elementals" name="elementals" required checked>
             <option value="Select One">Select One</option>
             <option value="Water">Water</option>
             <option value="Fire">Fire</option>
@@ -19,7 +19,7 @@
             <option value="Earth">Earth</option>
         </select><br><br>
     <label for="quality">What quality do you value most?</label><br>
-    <select id="quality" name="quality">
+    <select id="quality" name="quality" required checked>
         <option value="Select One">Select One</option>
         <option value=loyalty>Loyalty</option>
         <option value="bravery">Bravery</option>
@@ -32,7 +32,7 @@
         <input type="text" id="seasoning" name="veggie" required checked><br><br>
     <label for="transport">What's your least preferred mode of transportation?</label><br>
         <input type="text" id="transport" name="transport" required checked><br><br>
-<button id="btn-alrt">Submit</button>
+<button id="btn-alrt">Generate Your Story</button>
 </form>
 </body>
 
